@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('h1').funText(100, 'reverseCandy');
+  //$('h1').funText(100, 'reverseCandy');
   console.log( $('.parallax').length ); // doesn't load outside of the loop, because it hasn't loaded the rest of the html/css yet
 
   //any var declared in here can't be accessed by the console outside of this loop. Make damned sure the variales you need are defined outside the on-load function.
